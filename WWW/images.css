@@ -1,0 +1,62 @@
+.Images {
+    display: block;
+    position: relative;
+    right: 25%;
+    margin-top: -15%;
+    margin-bottom: -15%;
+    border: solid black 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.2);
+    transform: scale(0.5,0.5);
+    width: 150%;
+}
+
+.Images h2 {
+    position: relative;
+    text-align: center;
+    left: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 5em;
+}
+
+.Images ul {
+    max-width: infinite;
+    position: relative;
+    display: inline;
+    animation-duration: 15s;
+    animation-name: actionslide;
+    animation-iteration-count: infinite;
+    white-space: nowrap;
+}
+
+.Images ul li {
+    display: inline;
+    overflow: hidden;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.Images ul li img {
+    position: relative;
+    width: 75%;
+}
+
+@keyframes actionslide {
+    from  {
+        left: -65%;
+    }
+    
+    33% {
+        left: -140%;
+    }
+    
+    66% {
+        left: -215%;
+    }
+    
+    to {
+        left: -65%
+    }
+}

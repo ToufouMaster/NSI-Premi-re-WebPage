@@ -1,0 +1,18 @@
+.wrongRegex {
+    border-color: red;
+}
+
+.correctRegex {
+    border-color: green;
+}
+
+.Contact {
+    margin-top: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.Contact form input, textarea {
+    background-color: antiquewhite;
+}

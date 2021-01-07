@@ -1,0 +1,34 @@
+header {
+    background-color: orange;
+}
+
+.MenuList {
+    display: inline-block;
+    list-style-type: none;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+}
+
+.MenuList li {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.MenuList li a {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: azure;
+    text-decoration: none;
+}
+
+.MenuList li a p {
+    display: inline;
+    font: 1.2em "Fira Sans", serif;
+    color: darkblue;
+    text-shadow: rgba(0,0,0,0.3) 2px 2px;
+}
